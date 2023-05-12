@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding= "utf-8"?>
+<!DOCTYPE openerp>
+<openerp>
+<data>
+<!-- Criação de menu de cadastramento de pets -->
+<menuitem
+id="oc.pet"
+name="Pets e moradores"
+parent="oc.moradores"
+sequence="10"
+groups="group_occ_manager"
+/>
+
+<!--Criação de Menu de Cadastro de Pets de Moradores-->
+<menuitem
+id="oc_cadastro_pets"
+name="Pets e moradores"
+parent="cpf.py"
+sequence="20"
+groups="group_occ_manager", "group_occ_user"
+/>
+
+<!--Criação de menu para cadastro de vacinas dos pets-->
+<menuitem
+id="oc_vacinas"
+name="Pets e vacinas dos pets"
+parent="oc.vacinas"
+sequence="20"
+groups="group_occ_manager","group_occ_user"
+/>

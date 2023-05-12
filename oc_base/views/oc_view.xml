@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE openerp>
+<openerp>
+  <data>
+  	<!-- Criação do Menu Operação -->
+  	<menuitem
+  		id="oc_Opr"
+  		name="Operação"
+  		sequence = "0"
+  		groups="group_occ_manager,group_occ_user"
+  	/>
+  	
+  	<!-- Criação do Menu Cadastro -->
+  	<menuitem
+  		id="oc_Cad"
+  		name="Cadastro"
+  		sequence = "1"
+  		groups="group_occ_manager,group_occ_user"
+  	/>  	
+  	
+  	<!-- Criação do Menu Solicitações -->
+  	<menuitem
+  		id="oc_Sol"
+  		name="Solicitações"
+  		sequence = "2"
+  		groups="group_occ_manager,group_occ_user"
+  	/>
+  	
+  	<!-- Criação do Menu Ajuda -->
+  	<menuitem
+  		id="oc_Hlp"
+  		name="Ajuda"
+  		sequence = "3"
+  		groups="group_occ_manager,group_occ_user"
+  	/>  	
+  </data>
+</openerp>
